@@ -1,0 +1,105 @@
+<p class="subtitulo">Borrar una carpeta o archivo</p>
+<p>En ocasiones vamos a necesitar borrar archivos para no confundirnos a la hora de trabajar, o borrar información que ya no deseamos tener en la computadora y que sólo ocupa espacio. Al borrar información, la primera opción es enviarla a la papelera; la segunda opción es borrarla definitivamente.</p>
+
+<div class="contenedor-gris">
+	<p><strong>Consejo:</strong></p>
+	<p>No borre la información definitivamente, ya que ésta no se podrá recuperar. Si la borra temporalmente se envía a la "papelera de reciclaje", y como vimos en el subtema pasado, los archivos que están ahí Sí se pueden recuperar.</p>
+</div>
+
+
+<p>Para borrar carpetas o archivos, existen tres formas muy comunes: </p>
+
+<div class="contenedor-gris margin0 padding0 text-center img-center">
+	<p><img src="img/ic_mouse.gif" alt=""><strong>Haga clic en cada una de las opciones</strong></p>
+</div>
+
+<ul class="nav nav-tabs nav-justified">
+    <li class="tab-margin"><a data-toggle="tab" href="#contextual">Desde Menú contextual</a></li>
+    <li><a class="tab-margin" data-toggle="tab" href="#supr">Teclas de control SUPR</a></li>
+    <li><a class="tab-margin" data-toggle="tab" href="#arrastrar">Arrastrando a papelera</a></li>
+</ul>
+
+
+ <div class="tab-content">
+    <div id="contextual" class="tab-pane fade top-5">
+    	<div class="row contenedor-gris">
+    		<p class="text-center"><strong>Desde menú contextual</strong></p>
+    		<ol>
+                <li>Seleccione con el apuntador del ratón el archivo o carpeta que desea eliminar. </li> 
+                <li>Despliegue un menú contextual con el botón derecho del <strong>ratón</strong>  (mouse). </li>
+                <li>Seleccione la opción <strong>Eliminar</strong> (Delete). </li>
+                <li>Seleccione la carpeta a donde desea mover el archivo o carpeta. </li>
+                <li>Haga clic en el botón <strong>Mover</strong> (Move). </li>
+            </ol>
+
+           	<div class="row">
+           		<div class="col-md-4">
+           			<img src="img/tema5/borrar_windowsxp.jpg" img="img-responsive img-center" alt="">
+           		</div>
+           		<div class="col-md-4">
+           			<img src="img/tema5/borrar_windowsvista.jpg" img="img-responsive img-center" alt="">
+           		</div>
+           		<div class="col-md-4">
+           			<img src="img/tema5/borrar_windows7.jpg" img="img-responsive img-center" alt="">
+           		</div>
+           	</div>
+    	</div>
+	</div>
+
+	<div id="supr" class="tab-pane fade top-5">
+    	<div class="row contenedor-gris">
+    		<p class="text-center"><strong>Tecla de Control SUPR</strong></p>
+    		<ol>
+                <li>Seleccione el archivo a eliminar. </li> 
+                <li>Oprima la tecla <strong>SUPR</strong> (Delete).
+					<img src="img/tema5/tecladoSupr.jpg" class="img-responsive" alt="">
+                </li>
+                <li>Enseguida aparecerá un cuadro de confirmación para borrar el archivo.
+					<div class="row">
+		           		<div class="col-md-4">
+		           			<img src="img/tema5/suprimir_windowsxp.jpg" img="img-responsive img-center" alt="">
+		           		</div>
+		           		<div class="col-md-4">
+		           			<img src="img/tema5/suprimir_windowsvista.jpg" img="img-responsive img-center" alt="">
+		           		</div>
+		           		<div class="col-md-4">
+		           			<img src="img/tema5/suprimir_windows7.jpg" img="img-responsive img-center" alt="">
+		           		</div>
+		           	</div>
+                </li>
+                <li>Seleccione la opción <strong>"Sí"</strong> (Yes) para borrar el archivo. </li>
+                <li>Si no desea borrar el archivo, seleccione la opción <strong>"No"</strong>. </li>
+            </ol>
+
+           	
+    	</div>
+	</div>
+
+	<div id="arrastrar" class="tab-pane fade top-5">
+    	<div class="row contenedor-gris">
+    		<p class="text-center"><strong>Arrastrando a Papelera</strong></p>
+    		<ol>
+    			<li>Seleccione el archivo que desea eliminar. </li>
+    			<li>Con el ratón, arrástrelo hacia la papelera. </li>
+    		</ol>
+    		<p>Esta opción no pide confirmación, simplemente se borra y ya. </p>
+    	</div>
+	</div>
+ </div>
+
+<div class="text-center">
+	<button type="button" class="btn btn-primary link" llevame="temas/tema5-4.html" botonera="#texto-contenido">Regresar</button>
+</div>
+<script>
+jQuery(document).ready(function(){ 
+
+  $(".link").click(function(){
+    mihtml= $(this).attr("llevame");
+    mibotonera= $(this).attr("botonera");
+    $(mibotonera).load(mihtml);
+    $("#dos").addClass("active"); 
+  })
+
+}); 
+</script>
+<div class="wrap"></div>

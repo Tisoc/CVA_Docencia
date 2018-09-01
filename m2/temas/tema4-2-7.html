@@ -1,0 +1,49 @@
+<p class="subtitulo"><strong>Accesos directos</strong></p>
+<p>Los iconos de acceso directo son la forma más rápida y fácil de acceder a los programas, carpetas o archivos que se utilizan con más frecuencia. </p>
+
+<p>Se pueden colocar accesos directos en un lugar que vea frecuentemente, como el escritorio o una carpeta. </p>
+
+<p class="text-center"><strong>¿Ha visto iconos como éstos en la computadora donde está trabajando?</strong></p>
+
+
+<div class="contenedor-gris">
+	<div class="row">
+		<div class="col-md-4 col-md-offset-2">
+			<img src="img/tema4/accesosDirectos1.jpg" img="img-responsive img-center" alt="">
+		</div>
+		<div class="col-md-4 col-md-offset-2">
+			<img src="img/tema4/accesosDirectos2.jpg" img="img-responsive img-center" alt="">
+		</div>
+	</div>
+	<p>Un acceso rápido se puede distinguir del acceso normal por la flecha que aparece en el icono. Esto significa que este programa o carpeta se encuentra en otra ubicación, pero a través de este acceso rápido, puede entrar a ellos desde un lugar más fácil de encontrar. </p>
+</div>
+
+<p class="text-center"><strong>¿Quiere aprender cómo hacer un acceso directo?</strong></p>
+
+<p>Una forma fácil de hacerlo es la siguiente:</p>
+
+<ol>
+	<li>Seleccione el archivo, carpeta o programa del cual desea tener un acceso directo. </li>
+	<li>Haga clic derecho sobre el archivo, carpeta o programa y arrástrelo al lugar donde desea tener el acceso rápido. </li>
+	<li>Se desplegará el menú contextual, con pocas opciones. Elija la opción "Crear acceso directo" (Create shortcuts Here).
+		<img src="img/tema4/menuAccesoDirecto.gif" class="img-responsive" alt="">
+	</li>
+	<li>Automáticamente el acceso habrá sido creado en el sitio donde se situó el archivo, carpeta o programa. </li>
+</ol>
+<div class="text-center">
+	<button type="button" class="btn btn-primary link" llevame="temas/tema4-2.html" botonera="#texto-contenido">Regresar</button>
+</div>
+<script>
+jQuery(document).ready(function(){ 
+
+  $(".link").click(function(){
+    mihtml= $(this).attr("llevame");
+    mibotonera= $(this).attr("botonera");
+    $(mibotonera).load(mihtml);
+    $("#dos").addClass("active"); 
+  })
+
+}); 
+</script>
+
+<div class="wrap"></div>

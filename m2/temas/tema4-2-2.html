@@ -1,0 +1,100 @@
+<p class="subtitulo"><strong>Íconos</strong></p>
+<p>Un icono es una representación gráfica de un elemento del sistema operativo. En todos los sistemas son muy similares, sólo cambian unos pequeños aspectos de diseño. </p>
+
+<div class="row">
+	<div class="col-md-3">
+		<p><strong>Hay iconos para:</strong></p>
+	</div>
+	<div class="col-md-3">
+		<p><strong>Windows 8 y 10</strong></p>
+	</div>
+	<div class="col-md-3">
+		<p><strong>Windows Vista y 7</strong></p>
+	</div>
+	<div class="col-md-3">
+		<p><strong>Windows XP</strong></p>
+	</div>
+</div>
+
+<div class="row top-5">
+	<div class="col-md-3">
+		<p><strong>Documentos</strong></p>
+	</div>
+	<div class="col-md-3">
+		<img src="img/tema4/windows810_documentos.jpg" class="img-responsive img-center"alt="">
+	</div>
+	<div class="col-md-3">
+		<img src="img/tema4/windowsvista7_documentos.gif" class="img-responsive img-center"alt="">
+	</div>
+	<div class="col-md-3">
+		<img src="img/tema4/windowsxp_documentos.gif" class="img-responsive img-center"alt="">
+	</div>
+</div>
+
+<div class="row top-5">
+	<div class="col-md-3">
+		<p><strong>Carpetas</strong></p>
+	</div>
+	<div class="col-md-3">
+		<img src="img/tema4/windows810_documentos.jpg" class="img-responsive img-center"alt="">
+	</div>
+	<div class="col-md-3">
+		<img src="img/tema4/windowsvista7_carpetas.gif" class="img-responsive img-center"alt="">
+	</div>
+	<div class="col-md-3">
+		<img src="img/tema4/windowsxp_carpetas.gif" class="img-responsive img-center"alt="">
+	</div>
+</div>
+
+
+<div class="row top-5">
+	<div class="col-md-3">
+		<p><strong>Papelera</strong></p>
+	</div>
+	<div class="col-md-3">
+		<img src="img/tema4/windows810_papelera.jpg" class="img-responsive img-center"alt="">
+	</div>
+	<div class="col-md-3">
+		<img src="img/tema4/windowsvista7_papelera.gif" class="img-responsive img-center"alt="">
+	</div>
+	<div class="col-md-3">
+		<img src="img/tema4/windowsxp_papelera.gif" class="img-responsive img-center"alt="">
+	</div>
+</div>
+
+<div class="row top-5">
+	<div class="col-md-3">
+		<p><strong>Programas o aplicaciones</strong></p>
+	</div>
+	<div class="col-md-3">
+		<img src="img/tema4/windows810_programas.jpg" class="img-responsive img-center"alt="">
+	</div>
+	<div class="col-md-3">
+		<img src="img/tema4/windowsvista7_programas.gif" class="img-responsive img-center"alt="">
+	</div>
+	<div class="col-md-3">
+		<img src="img/tema4/windowsxp_programas.gif" class="img-responsive img-center"alt="">
+	</div>
+</div>
+
+<div class="contenedor-gris text-center">
+	<p><strong>¿Ya identificó los iconos en su computadora?</strong></p>
+</div>
+
+<div class="text-center">
+	<button type="button" class="btn btn-primary link" llevame="temas/tema4-2.html" botonera="#texto-contenido">Regresar</button>
+</div>
+
+<div class="divide50"></div>
+<script>
+jQuery(document).ready(function(){ 
+
+  $(".link").click(function(){
+    mihtml= $(this).attr("llevame");
+    mibotonera= $(this).attr("botonera");
+    $(mibotonera).load(mihtml);
+    $("#dos").addClass("active"); 
+  })
+
+}); 
+</script>

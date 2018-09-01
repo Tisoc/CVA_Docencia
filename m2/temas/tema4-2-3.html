@@ -1,0 +1,51 @@
+<p class="subtitulo"><strong>Barra de tareas</strong></p>
+<p>Es la barra horizontal que aparece en la parte inferior de la pantalla. Se divide en cuatro secciones principales, en las cuales se pueden ver: </p>
+<img src="img/tema4/windows810_barraTareas.jpg" class="img-responsive" alt="">
+<img src="img/tema4/windows7_barraTareas.jpg" class="img-responsive" alt="">
+<img src="img/tema4/windowsvista_barraTareas.jpg" class="img-responsive" alt="">
+<img src="img/tema4/windowsxp_barraTareas.jpg" class="img-responsive" alt="">
+
+<div class="contenedor-gris">
+	<ol>
+		<li>
+			<p>El <strong>botón inicio (Start)</strong>, que abre el menú inicio</p>
+			<div class="alinearHorizontal">
+				<img src="img/tema4/botoninicio_windows10.jpg" alt="">
+				<img src="img/tema4/botoninicio_windows7.jpg" alt="">
+				<img src="img/tema4/botoninicio_windowsvista.jpg" alt="">
+				<img src="img/tema4/botoninicio_windowsxp.jpg" alt="">
+			</div>
+		</li>
+		<li>
+			<p>La barra de <strong>herramientas de inicio rápido</strong>, que le permite iniciar programas con un solo clic. </p>
+		</li>
+		<li>
+			<p>La sección <strong>intermedia</strong>, que muestra los programas y documentos que tiene abiertos y permite cambiar rápidamente entre ellos. </p>
+		</li>
+		<li>
+			<p>El <strong>área de notificación</strong>, que incluye un reloj e iconos (imágenes pequeñas) que indican el estado de determinados programas y la configuración del equipo. </p>
+		</li>
+	</ol>
+	<ul>
+		<li>En windows 8 y 10, se cuenta con una barra de búsqueda a un lado del botón de inicio</li>
+	</ul>
+</div>
+
+<div class="text-center">
+	<button type="button" class="btn btn-primary link" llevame="temas/tema4-2.html" botonera="#texto-contenido">Regresar</button>
+</div>
+
+<script>
+jQuery(document).ready(function(){ 
+
+  $(".link").click(function(){
+    mihtml= $(this).attr("llevame");
+    mibotonera= $(this).attr("botonera");
+    $(mibotonera).load(mihtml);
+    $("#dos").addClass("active"); 
+  })
+
+}); 
+</script>
+
+<div class="wrap"></div>

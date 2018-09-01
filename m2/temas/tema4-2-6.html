@@ -1,0 +1,55 @@
+<p class="subtitulo"><strong>Cajas de diálogo</strong></p>
+<p>Las cajas de diálogo son ventanas que el sistema operativo utiliza para realizar preguntas o dar mensajes, y tienen la estructura básica de las ventanas de aplicaciones o carpetas. </p>
+<p>En la mayoría de las cajas de diálogo se encontrará con más de un botón en la parte inferior de la pantalla y como se puede observar, despliegan diferentes opciones, que pueden ser elegidas con el apuntador del ratón directamente. </p>
+
+<div class="contenedor-gris">
+	<div class="row">
+		<div class="col-md-3 text-center">
+			<p><strong>Windows 8 y 10</strong></p>
+			<img src="img/tema4/windows10_cajas.png" class="img-responsive img-center" alt="">
+		</div>
+		<div class="col-md-3 text-center">
+			<p><strong>Windows 7</strong></p>
+			<img src="img/tema4/windows7_cajas.jpg" class="img-responsive img-center" alt="">
+		</div>
+		<div class="col-md-3 text-center">
+			<p><strong>Windows Vista</strong></p>
+			<img src="img/tema4/windowsvista_cajas.jpg" class="img-responsive img-center" alt="">
+		</div>
+		<div class="col-md-3 text-center">
+			<p><strong>Windows XP</strong></p>
+			<img src="img/tema4/windowsxp_cajas.jpg" class="img-responsive img-center" alt="">
+		</div>
+	</div>
+</div>
+
+<p><strong>Ejemplo:</strong> cuando usted desea eliminar un archivo, el sistema operativo pregunta si estamos seguros de querer borrar esa información. Es ahí cuando aparecen las cajas de diálogo. En todas las versiones de Windows  son muy similares, sólo cambian algunos aspectos de diseño.</p>
+
+<p>Hay cajas de diálogo que tienen más opciones dentro, por ejemplo cuando entramos a las <strong>Propiedades de Pantalla.</strong></p>
+
+<div class="row">
+	<div class="col-md-6">
+		<img src="img/tema4/cajaDialogo.jpg" class="img-responsive img-center" alt="">
+	</div>
+	<div class="col-md-6">
+		<p>La forma de visualizar las opciones de cada pestaña o categoría es haciendo clic en el nombre de la pestaña; de esa forma vemos la información de cada pestaña, y cambiará según nosotros cambiemos de pestaña, haciendo clic en el subtítulo. </p>
+		<p>Esta caja de diálogo tiene varias fichas o pestañas en la parte superior como son: Temas (Themes - ficha que se encuentra resaltada), Fondo (Desktop), Protector de pantalla (Screen Saver), Apariencia (Appearance) y Configuración (Settings). Para moverse dentro de ellas, sólo hace clic en las diferentes pestañas. </p>
+		<p><img src="img/tema4/cerrarCaja.jpg" class="img-responsive img-center" alt="">Si desea cerrar esa caja de diálogo, haga clic en el icono que se encuentra en la esquina superior derecha. </p>
+	</div>
+</div>
+
+
+<script>
+jQuery(document).ready(function(){ 
+
+  $(".link").click(function(){
+    mihtml= $(this).attr("llevame");
+    mibotonera= $(this).attr("botonera");
+    $(mibotonera).load(mihtml);
+    $("#dos").addClass("active"); 
+  })
+
+}); 
+</script>
+
+<div class="wrap"></div>

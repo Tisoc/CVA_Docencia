@@ -1,0 +1,40 @@
+<p class="subtitulo">Título</p>
+<p>Como en cualquier ventana de Windows, se tiene la barra del título que muestra el nombre de la carpeta en la que se encuentra. </p>
+
+<div class="row text-center">
+	<div class="col-md-12">
+		<img src="img/tema5/tituloWindows10.jpg" class="img-responsive img-center" alt="">
+		<p><strong>Windows 8 y 10</strong></p>
+	</div>
+</div>
+
+<div class="row text-center">
+	<div class="col-md-12">
+		<img src="img/tema5/tituloWindows7.jpg" class="img-responsive img-center" alt="">
+		<p><strong>Windows Vista y 7</strong></p>
+	</div>
+</div>
+
+<div class="row text-center">
+	<div class="col-md-12">
+		<img src="img/tema5/tituloWindowsxp.jpg" class="img-responsive img-center" alt="">
+		<p><strong>Windows XP</strong></p>
+	</div>
+</div>
+
+<div class="text-center">
+	<button type="button" class="btn btn-primary link" llevame="temas/tema5-3.html" botonera="#texto-contenido">Regresar</button>
+</div>
+<script>
+jQuery(document).ready(function(){ 
+
+  $(".link").click(function(){
+    mihtml= $(this).attr("llevame");
+    mibotonera= $(this).attr("botonera");
+    $(mibotonera).load(mihtml);
+    $("#dos").addClass("active"); 
+  })
+
+}); 
+</script>
+<div class="wrap"></div>

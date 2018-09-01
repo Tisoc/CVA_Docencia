@@ -1,0 +1,22 @@
+<p class="subtitulo"><strong>Wideside bar</strong></p>
+<p>Es una barra vertical larga situada a un lado del escritorio. Está disponible en las versiones Windows Vista y Windows 7. Contiene miniprogramas denominados gadgets o herramientas que ofrecen información de forma inmediata y proporcionan un acceso fácil a las herramientas de uso frecuente.</p>
+<p>Por ejemplo, puede utilizar gadgets para mostrar una presentación de imágenes, ver titulares de periódicos, o tener el reloj en formato tradicional, entre otras cosas. </p>
+<img src="img/tema4/widesidebar.jpg" class="img-responsive img-center" alt="">
+<div class="text-center">
+	<button type="button" class="btn btn-primary link" llevame="temas/tema4-2.html" botonera="#texto-contenido">Regresar</button>
+</div>
+
+<script>
+jQuery(document).ready(function(){ 
+
+  $(".link").click(function(){
+    mihtml= $(this).attr("llevame");
+    mibotonera= $(this).attr("botonera");
+    $(mibotonera).load(mihtml);
+    $("#dos").addClass("active"); 
+  })
+
+}); 
+</script>
+
+<div class="wrap"></div>

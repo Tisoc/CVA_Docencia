@@ -1,0 +1,143 @@
+
+/* Cambio de color azul fuerte a celeste y blanco */
+.header{
+	background-color: #blue;
+}
+
+.fondo-azul{
+	border-color: rgb(0, 140, 105);
+	background-color: rgb(0, 140, 105);
+}
+
+#ig{
+	border-bottom: solid 3px 	#A0522D;
+}
+
+.font-900{
+	font-weight:900;
+}
+
+.color-gris{
+	color:#393939;
+}
+
+.footer{
+	background-color: #070919;
+}
+
+.botonera{
+	border-color: #A0522D;
+	background-color: #A0522D;
+}
+
+.navbar-default{
+	border-color: #A0522D;
+	background-color: #A0522D;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color:white;
+}
+
+.ir-dim{
+	background-color: #A0522D;
+	color:white;
+}
+
+.modal-header{
+	background-color: #A0522D;
+	color:white;
+}
+
+.dropdown-menu{
+	background-color:	#A0522D;
+	color:white;
+}
+
+.dropdown-menu > li > a{
+	color:white;
+}
+
+/* Slider */
+.unslider-arrow {
+    display: block;
+    width: 32px;
+    height: 32px;
+    top: 50%;
+    right: -50px;
+    left: auto;
+    margin-top: -16px;
+}
+
+.unslider-arrow.prev {
+    left: -50px;
+    right: auto;
+    background-image: url("../img/flecha_izq.png");
+}
+
+.unslider-arrow.next{
+	background-image: url("../img/flecha_der.png");
+}
+
+.unslider-arrow.prev:hover{
+    background-image: url("../img/flecha_izq2.png");
+}
+
+.unslider-arrow.next:hover{
+	background-image: url("../img/flecha_der2.png");
+}
+
+.slide-content{
+	margin-left: 20px;
+	margin-right: 70px;
+}
+
+.width-25{
+	width: 20%;
+}
+
+.ocultar{
+	display: none;
+}
+
+.list-style-circle{
+	list-style-type: circle;
+}
+
+.rojo{
+	color:#BF1E2E;
+}
+
+.big {
+font-size: 20px;
+text-align: justify;
+}
+
+.bigger {
+	font-size: 28px;
+}
+
+.biggest {
+font-size: 35px;
+text-align: center;
+}
+
+.green {
+	color: rgb(0, 140, 105);
+}
+
+.backgreen {
+	background-color: rgb(0, 140, 105);
+}
+
+.contenedor-gris{
+	background-color: #EEEEEE;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	padding: 1em 1em 1em 1em;
+}
+
+.img-normal{
+	height:280px;
+	width: 300px;
+}

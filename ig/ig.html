@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Información general</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<!-- Estilos -->
+<link href="css/estilos.css"  rel="stylesheet" type="text/css">
+<link href="css/custom.css"  rel="stylesheet" type="text/css"
+
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,900|Roboto+Condensed:400,700|Roboto+Mono:400,500,700|Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+
+              <link href="css/rotating-card.css" rel="stylesheet" />
+              <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+
+</head>
+
+
+<body>
+
+
+<!-- FOOTER  -->
+
+    <div id="footer-dim"></div>
+
+
+<!-- HEADER FIXED-->
+<div class="contenedor te">
+
+
+<!--Logos y nombre del curso -->
+     <div id="header"></div>
+
+
+<!-- BOTONERA-->
+	<nav class="navbar navbar-default" style=" background-color:	#A0522D; border-color:	#A0522D; color:#000000;">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav navbar-right botonera">
+        <li><a llevame="comunes/politicas.html" botonera="#secciones" class="mo">Políticas</a></li>
+
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right botonera">
+        <li><a llevame="comunes/metodologia.html" botonera="#secciones" class="mo">Metodología y modelo</a></li>
+
+      </ul>
+
+
+      <ul class="nav navbar-nav navbar-right botonera">
+        <li><a llevame="comunes/organizador.html" botonera="#secciones"  class="mo">Mapa conceptual</a></li>
+
+      </ul>
+
+
+      <ul class="nav navbar-nav navbar-right botonera">
+        <li><a llevame="comunes/introduccion.html" botonera="#secciones"  class="mo">Descripción y objetivos</a></li>
+
+      </ul>
+        <ul class="nav navbar-nav navbar-right botonera">
+        <li><a llevame="comunes/bienvenida.html" botonera="#secciones"  class="mo">Bienvenida</a></li>
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+</div>
+ <!--Termina Header -->
+
+<!--banner dimension-->
+		<section class="container-fluid" id="ig">
+        	<div class="container contenido">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2> Información general</h2>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+
+<!--SECCIONES-->
+	<section class="container-fluid">
+    <div class="container" id="secciones"></div>
+ 	</section>
+
+
+
+ <!--- Modal Calendario --->
+<div class="modal fade" id="cale1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Calendario</h4>
+      </div>
+      <div class="modal-body">
+   <div id="calendario"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- Temrina MODAL CALENDARIO -->
+ <!-- modal PLANEADOR -->
+ <div class="modal fade" id="planeador" tabindex="-1" role="dialog" aria-labelledby="myModalLabeluno">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabeluno">Caja de herramientas</h4>
+      </div>
+      <div class="modal-body">
+      <div id="planeacion"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- TERMINA MODAL PLANEADOR -->
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.js"></script>
+
+
+<!-- scripts contenido -->
+<script type="text/javascript">
+	$(function() {
+		$('#navigation a').stop().animate({'marginLeft':'-85px'},1000);
+		$('#navigation > li').hover(
+			function () {
+				$('a',$(this)).stop().animate({'marginLeft':'-2px'},200);
+			},
+			function () {
+				$('a',$(this)).stop().animate({'marginLeft':'-85px'},200);
+			}
+		);
+	});
+</script>
+
+
+<script>
+jQuery(document).ready(function(){
+
+//Load
+$("#header").load("comunes/componentes.html #header");
+$('#secciones').load('comunes/bienvenida.html');
+$("#footer-dim").load("comunes/componentes.html #footer-dim");
+$('#planeacion').load('comunes/planeacion.html');
+$('#calendario').load('comunes/calendario.html');
+
+  $(".mo").click(function(){
+    mihtml= $(this).attr("llevame");
+    mibotonera= $(this).attr("botonera");
+    $(mibotonera).load(mihtml);
+  })
+
+
+});
+</script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<p>Con el Explorador de Windows, además de buscar y encontrar información de forma rápida, también nos ayuda a organizarla, copiarla, renombrarla, borrarla, entre otras cosas. Veamos qué ventajas nos ofrece esta utilería y cómo funciona. </p>
+
+<div class="contenedor-gris margin0 padding0 text-center"> 	
+	<p><img src="img/ic_mouse.gif" alt=""><strong>Haga clic en cada una de las opciones para ver cómo funciona</strong></p>
+</div>
+
+<div class="row text-center">
+	<div class="col-md-4">
+		<img src="img/tema5/crearCarpeta.gif" class="img-responsive img-center" alt="">
+		<button type="button" class="btn btn-default link" llevame="temas/tema5-4-1.html" botonera="#texto-contenido">Crear</button>
+	</div>
+	<div class="col-md-4">
+		<img src="img/tema5/renombrarCarpeta.gif" class="img-responsive img-center" alt="">
+		<button type="button" class="btn btn-default link" llevame="temas/tema5-4-2.html" botonera="#texto-contenido">Renombrar</button>
+	</div>
+	<div class="col-md-4">
+		<img src="img/tema5/copiarCarpeta.gif" class="img-responsive img-center" alt="">
+		<button type="button" class="btn btn-default link" llevame="temas/tema5-4-3.html" botonera="#texto-contenido">Copiar</button>
+	</div>
+</div>
+
+<div class="row text-center">
+	<div class="col-md-4">
+		<img src="img/tema5/borrarCarpeta.gif" class="img-responsive img-center" alt="">
+		<button type="button" class="btn btn-default link" llevame="temas/tema5-4-4.html" botonera="#texto-contenido">Borrar</button>
+	</div>
+	<div class="col-md-4">
+		<img src="img/tema5/buscarCarpeta.gif" class="img-responsive img-center" alt="">
+		<button type="button" class="btn btn-default link" llevame="temas/tema5-4-5.html" botonera="#texto-contenido">Buscar</button>
+	</div>
+	<div class="col-md-4">
+		<img src="img/tema5/ordenarCarpeta.gif" class="img-responsive img-center" alt="">
+		<button type="button" class="btn btn-default link" llevame="temas/tema5-4-6.html" botonera="#texto-contenido">Ordenar</button>
+	</div>
+</div>
+
+<script>
+jQuery(document).ready(function(){ 
+
+  $(".link").click(function(){
+    mihtml= $(this).attr("llevame");
+    mibotonera= $(this).attr("botonera");
+    $(mibotonera).load(mihtml);
+    $("#dos").addClass("active"); 
+  })
+
+}); 
+</script>
+<div class="wrap"></div>

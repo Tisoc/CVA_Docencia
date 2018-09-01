@@ -1,0 +1,56 @@
+<p class="subtitulo">Árbol de directorios</p>
+<p>En esta sección sólo se despliegan las unidades y carpetas que existen en la computadora, no los archivos.</p>
+<p>La estructura de archivos es como un árbol genealógico. Primero muestra la carpeta general, que en nuestro caso es el <strong>Escritorio</strong> (Desktop). Dentro de él encontramos a <strong>Mi Computadora</strong> (My Computer) que a su vez tiene las distintas unidades que tenemos (A,C,D,E,H), al pulsar sobre el símbolo <img src="img/tema5/simbolo+.gif" alt="">, <img src="img/tema5/simboloflecha.gif" alt=""> ó <img src="img/tema5/flechaBlancaWindows10.jpg" alt="">que está a la izquierda de una unidad, se desplegarán las carpetas que hay en su interior, así hasta llegar al último nivel de detalle. </p>
+
+<p>Al desplegar la carpeta el símbolo <img src="img/tema5/simbolo+.gif" alt="">, <img src="img/tema5/simboloflecha.gif" alt=""> ó <img src="img/tema5/flechaBlancaWindows10.jpg" alt=""> se convierte en un <img src="img/tema5/simbolo-.gif" alt="">, <img src="img/tema5/simboloflechaabajo.gif" alt=""> ó <img src="img/tema5/flechaNegraWindows10.jpg" alt="">. </p>
+
+
+<p><strong>Subcarpetas escondidas</strong>(<img src="img/tema5/simbolo+.gif" alt="">, <img src="img/tema5/simboloflecha.gif" alt=""> ó <img src="img/tema5/flechaBlancaWindows10.jpg" alt="">):</p>
+
+<div class="row text-center">
+	<div class="col-md-3 col-md-offset-3 ">
+		<img src="img/tema5/escondidasWindows10.jpg" class="img-responsive img-central" alt="">
+		<p><strong>Windows 10</strong></p>
+	</div>
+	<div class="col-md-3">
+		<img src="img/tema5/escondidasWindows7.jpg" class="img-responsive img-central" alt="">
+		<p><strong>Windows Vista y 7</strong></p>
+	</div>
+	<div class="col-md-3">
+		<img src="img/tema5/escondidasWindowsxp.jpg" class="img-responsive img-central" alt="">
+		<p><strong>Windows XP</strong></p>
+	</div>
+</div>
+
+<p><strong>Subcarpetas desplegadas</strong>(<img src="img/tema5/simbolo-.gif" alt="">, <img src="img/tema5/simboloflechaabajo.gif" alt=""> ó <img src="img/tema5/flechaNegraWindows10.jpg" alt="">):</p>
+
+<div class="row text-center">
+	<div class="col-md-3 col-md-offset-3 ">
+		<img src="img/tema5/desplegadasWindows10.jpg" class="img-responsive img-central" alt="">
+		<p><strong>Windows 10</strong></p>
+	</div>
+	<div class="col-md-3">
+		<img src="img/tema5/desplegadasWindows7.jpg" class="img-responsive img-central" alt="">
+		<p><strong>Windows Vista y 7</strong></p>
+	</div>
+	<div class="col-md-3">
+		<img src="img/tema5/desplegadasWindowsxp.jpg" class="img-responsive img-central" alt="">
+		<p><strong>Windows XP</strong></p>
+	</div>
+</div>
+<div class="text-center">
+	<button type="button" class="btn btn-primary link" llevame="temas/tema5-3.html" botonera="#texto-contenido">Regresar</button>
+</div>
+<script>
+jQuery(document).ready(function(){ 
+
+  $(".link").click(function(){
+    mihtml= $(this).attr("llevame");
+    mibotonera= $(this).attr("botonera");
+    $(mibotonera).load(mihtml);
+    $("#dos").addClass("active"); 
+  })
+
+}); 
+</script>
+<div class="wrap"></div>

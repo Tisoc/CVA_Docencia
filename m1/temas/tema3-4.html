@@ -1,0 +1,127 @@
+<p class="subtema">Ejercicio</p>
+<div id="instrucciones" class="row contenedor-gris">
+	<p><strong>¡Muy bien! ¿Listo para el siguiente ejercicio?</strong></p>
+	<p>Vamos a practicar todo lo que has aprendido de la Tierra, sus capas y la atmósfera.</p>
+	<p>El siguiente ejercicio no tiene evaluación, pero le servirá para comprobar lo que ha aprendido.</p>
+
+	<p><strong>La Tierra</strong></p>
+	<button id="btnEmpezar" type="button" class="btn btn-default">Empezar ejercicio</button>
+	<em>Haga clic en el botón para realizar el ejercicio.</em>
+</div>
+
+
+<div id="ejercicio" class="row ocultar">
+	<div class="row contenedor-gris">
+		<p><strong>Objetivo: </strong>Identificar qué respuesta es la correcta para cada pregunta acerca de la Tierra y sus diferentes capas.  </p>
+		<p><strong>Instrucciones:</strong></p>
+		<ol>
+			<li>Lea los enunciados que a continuación se muestran.</li>
+			<li>Observe que cada uno tiene tres opciones de respuesta.</li>
+			<li>Seleccione aquella respuesta que le parezca más acertada.</li>
+			<li>Al finalizar, haga clic en el botón "Revisar"</li>
+		</ol>
+	</div>
+
+	<p><strong> 1. ¿Qué es la presión atmosférica? </strong></p>
+	<div class="row">
+		<div class="radio">
+  			<label><input type="radio" name="optradio">a) La capa de gases que rodea a la Tierra y que tiene diversas funciones</label>
+		</div>
+		<div class="radio">
+  			<label><input type="radio" name="optradio">b) El peso de las nubes sobre la Tierra</label>
+		</div>
+		<div class="radio correcto">
+  			<label><input type="radio" name="optradio">c) El peso del aire sobre la Tierra</label>
+		</div>
+	</div>
+
+	<p><strong>2. ¿Cúales son los dos planetas que estan más cerca del Sol? </strong></p>
+	<div class="row">
+		<div class="radio">
+  			<label><input type="radio" name="optradio">a) Mercurio y la Tierra</label>
+		</div>
+		<div class="radio correcto">
+  			<label><input type="radio" name="optradio">b) Mercurio y Venus</label>
+		</div>
+		<div class="radio">
+  			<label><input type="radio" name="optradio">c) Venus y Marte</label>
+		</div>
+	</div>
+
+	<p><strong>3. ¿Por qué eventos se caracterizó el comienzo de la Tierra? </strong></p>
+	<div class="row">
+		<div class="radio">
+  			<label><input type="radio" name="optradio">a) Por el Big Bang</label>
+		</div>
+		<div class="radio">
+  			<label><input type="radio" name="optradio">b) Un sinfin de explosiones en la superficie de la Tierra</label>
+		</div>
+		<div class="radio correcto">
+  			<label><input type="radio" name="optradio">c) Una intensa actividad volcánica, por terribles tormentas eléctricas, constantes lluvias cuyas aguas formaron los océanos y mares
+   </label>
+		</div>
+	</div>
+
+	<p><strong>4. ¿Qué es una reacción quimica?</strong></p>
+	<div class="row">
+		<div class="radio correcto">
+  			<label><input type="radio" name="optradio">a) Cambios que se dan en los electrones que ocupan la capa exterior de los átomos</label>
+		</div>
+		<div class="radio">
+  			<label><input type="radio" name="optradio">b) Cambios en los compuestos quimicos de un ser vivo.</label>
+		</div>
+		<div class="radio">
+  			<label><input type="radio" name="optradio">c) Cambios que se dan en los protones y neutrones que ocupan la capa exterior de los átomos</label>
+		</div>
+	</div>
+
+	<p><strong>5. ¿Cúal es el orden correcto de las capas de La Tierra de la más exterior a la más interior? </strong></p>
+	<div class="row">
+		<div class="radio">
+  			<label><input type="radio" name="optradio">a) Núcleo, Manto inferior, Manto superior, Manto, Corteza</label>
+		</div>
+		<div class="radio correcto">
+  			<label><input type="radio" name="optradio">b) Corteza, Manto, Manto superior, Manto inferior, Núcleo </label>
+		</div>
+		<div class="radio">
+  			<label><input type="radio" name="optradio">c) Manto, Manto superior, Manto inferior, Núcleo, Corteza</label>
+		</div>
+	</div>
+	<div class="row text-center rojo ocultar" id="revision">
+		<p><strong>Las respuestas correctas aparecen con verde.</strong></p>
+	</div>
+	<div class="row text-center rojo">
+		<p><strong>Al finalizar el ejercicio, le invitamos a que continúe con: Sección 3 Geografía y Clima de la Tierra</strong></p>
+	</div>
+	<div class="row text-center">
+		<button id="btnRevisar" type="button" class="btn btn-primary botonRevisar">Revisar</button>
+	</div>
+</div>
+
+
+<p>&nbsp;</p>
+
+<div class="wrap"></div>
+
+
+
+<script>
+	$(document).ready(function(){
+
+		$("#btnEmpezar").click(function(){
+			$("#ejercicio").show();
+			$("#instrucciones").hide();
+
+		});
+
+		$("#btnRevisar").click(function(){
+			$("#revision").show();
+			$("#btnRevisar").hide();
+			var x = document.getElementsByClassName("correcto");
+			var i;
+			for (i = 0; i < x.length; i++) {
+			    x[i].style.backgroundColor = "#4CAF50";
+			}
+		});
+	});
+</script>

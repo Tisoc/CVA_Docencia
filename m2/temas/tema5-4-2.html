@@ -1,0 +1,106 @@
+<p class="subtitulo">Renombrar carpetas y/o archivos</p>
+<p>En ocasiones es necesario cambiar el nombre de las carpetas o los archivos para adecuarlos a la nueva información que se les agrega.</p>
+
+<div class="contenedor-gris margin0 padding0 text-center img-center">
+	<p><img src="img/ic_mouse.gif" alt=""><strong>Haga clic en cada una de las opciones</strong></p>
+</div>
+
+<ul class="nav nav-tabs nav-justified">
+    <li class="tab-margin"><a data-toggle="tab" href="#archivos">Menú Archivo</a></li>
+    <li><a class="tab-margin" data-toggle="tab" href="#contextual">Menú Contextual</a></li>
+    <li><a class="tab-margin" data-toggle="tab" href="#sobreCarpeta">Sobre carpeta</a></li>
+    <li><a  class="tab-margin"data-toggle="tab" href="#teclaf2">Tecla de función F2</a></li>
+    <li><a  class="tab-margin"data-toggle="tab" href="#organizar">Menú Organizar</a></li>
+</ul>
+
+ <div class="tab-content">
+    <div id="archivos" class="tab-pane fade top-5">
+    	<div class="row contenedor-gris">
+    		<p class="text-center"><strong>Menú Archivo</strong></p>
+    		<ol>
+    			<li>Seleccione el archivo que desea renombrar. </li>
+    			<li>Abra el menú <strong>Archivo</strong> (File), después la opción <strong>Cambiar nombre</strong> (Rename).
+    			<br>
+    			En Windows Vista tendrá que primero presionar la tecla <strong>ALT</strong> para desplegar el menú.
+                <br>
+    			En Windows 7 tendrá primero que presionar la tecla F10 para desplegar el menú.</li>
+    			<li>Teclee el nuevo nombre y haga clic fuera de la carpeta para terminar. </li>
+    		</ol>
+    	</div>
+	</div>
+
+	<div id="contextual" class="tab-pane fade top-5">
+    	<div class="row contenedor-gris">
+    		<p class="text-center"><strong>Menú Contextual</strong></p>
+    		<ol>
+    			<li>Seleccione la carpeta o archivo que desea renombrar.  </li>
+    			<li>Abra el menú contextual con el clic izquierdo. </li>
+    			<li>Elija la opción <strong>Cambiar nombre</strong> (Rename). </li>
+    			<li>Teclee el nuevo nombre y haga clic afuera de la carpeta o archivo. </li>
+    		</ol>
+    	</div>
+	</div>
+
+	<div id="sobreCarpeta" class="tab-pane fade top-5">
+    	<div class="row contenedor-gris">
+    		<p class="text-center"><strong>Desde Carpeta</strong></p>
+    		<ol>
+                <li>Seleccione la carpeta o archivo. </li>
+                <li>Haga clic sobre el nombre, hasta que aparezca el cursor intermitente. </li>
+                <li>Teclee el nuevo nombre y haga clic fuera de la carpeta o archivo para terminar. </li>  
+            </ol>
+    	</div>
+	</div>
+
+	<div id="teclaf2" class="tab-pane fade top-5">
+    	<div class="row contenedor-gris">
+    		<p class="text-center"><strong>Tecla de Función F2</strong></p>
+    		<ol>
+    			<li>Seleccione la carpeta o archivo que desea renombrar. </li>
+    			<li>Haga clic izquierdo sobre el nombre. </li>
+    			<li>Oprima la tecla F2, inmediatamente aparecerá el cursor intermitente.
+                    <img src="img/tema5/teclado.jpg" class="img-responsive" alt="">
+    			</li>
+    			<li>Teclee el nuevo nombre y haga clic fuera de la carpeta o archivo para terminar. </li>
+    		</ol>
+    	</div>
+	</div>
+
+    <div id="organizar" class="tab-pane fade top-5">
+        <div class="row contenedor-gris">
+            <p class="text-center"><strong>Menú Organizar</strong></p>
+            <p class="text-center"><strong>Windows Vista y 7</strong></p>
+            <p>Renombrar una carpeta en estas dos versiones de Windows es muy sencillo, </p>
+            <ol>
+                <li>Seleccione el archivo que desea renombrar. </li>
+                <li>Abra el menú <strong>Organizar</strong> (Organize) y seleccione la opción <strong>Cambiar nombre</strong> (Rename). </li>
+                <li>Teclee el nuevo nombre y haga clic fuera de la carpeta para terminar. </li>
+            </ol>
+        </div>
+    </div>
+
+ </div>
+
+
+<p>&nbsp;</p>
+
+<div class="text-center">
+	<button type="button" class="btn btn-primary link" llevame="temas/tema5-4.html" botonera="#texto-contenido">Regresar</button>
+</div>
+
+<div class="wrap"></div>
+
+
+
+<script>
+jQuery(document).ready(function(){ 
+
+  $(".link").click(function(){
+    mihtml= $(this).attr("llevame");
+    mibotonera= $(this).attr("botonera");
+    $(mibotonera).load(mihtml);
+    $("#dos").addClass("active"); 
+  })
+
+}); 
+</script>

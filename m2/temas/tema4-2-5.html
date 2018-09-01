@@ -1,0 +1,132 @@
+<p class="subtitulo"><strong>Ventanas</strong></p>
+<p>Los componentes del escritorio de Windows (Desktop), van ligados a un elemento muy importante para su funcionamiento: <strong>la ventana de trabajo</strong>, ya que todas las aplicaciones o programas que trabajan bajo Windows, sin importar la versión, necesitan de un escenario para visualizarse. </p>
+<p><strong>Windows</strong> es una palabra en inglés que en español significa <strong>ventanas</strong>, toda la información que nos presenta el software de Windows está organizada en forma de cuadros o rectángulos que se parecen a ventanas. </p>
+<p>Una ventana es una parte de la pantalla sobre la que se ejecutará un programa o se realizarán una serie de tareas. Todas las ventanas poseen una serie de elementos comunes, veamos cuáles son. </p>
+
+<div class="contenedor-gris margin0 padding0 text-center">
+	<p><img src="img/ic_mouse.gif" alt=""><strong>Haga clic en los textos para ver más detalles del gráfico</strong></p>
+</div>
+
+<div class="row">
+    <ul class="col-md-3 nav nav-tabs nav-stacked">
+        <li class="tab-margin"><a data-toggle="tab" href="#minimizar">Botón de minimizar</a></li>
+        <li><a class="tab-margin" data-toggle="tab" href="#maximizar">Botón de maximizar</a></li>
+        <li><a class="tab-margin" data-toggle="tab" href="#restaurar">Botón de restaurar</a></li>
+        <li><a class="tab-margin" data-toggle="tab" href="#cerrar">Botón para cerrar</a></li>
+        <li><a class="tab-margin" data-toggle="tab" href="#iconos">íconos</a></li>
+        <li><a class="tab-margin" data-toggle="tab" href="#titulos">Barra de titulo</a></li>
+        <li><a class="tab-margin" data-toggle="tab" href="#menu">Barra de menú</a></li>
+        <li><a class="tab-margin" data-toggle="tab" href="#desplazamiento">Barra de desplazamiento</a></li>
+        <li><a class="tab-margin" data-toggle="tab" href="#esquinas">Bordes y esquinas</a></li>
+    </ul>
+
+    <div class="col-md-9">
+        <div class="tab-content">
+        	<div id="inicial" class="tab-pane fade in active">
+               <div class="row">
+                   <div class="col-md-12">
+                       <img src="img/tema4/ventanas_1.jpg" class="img-responsive img-center" alt="">
+                   </div>
+               </div>
+            </div>
+
+            <div id="minimizar" class="tab-pane fade in">
+               <div class="row">
+                   <div class="col-md-12">
+                       <img src="img/tema4/ventanas_minimizar.jpg" class="img-responsive img-center" alt="">
+                   </div>
+               </div>
+            </div>
+
+            <div id="maximizar" class="tab-pane fade">
+                <div class="row">
+                   <div class="col-md-12">
+                       <img src="img/tema4/ventanas_maximizar.jpg" class="img-responsive img-center" alt="">
+                   </div>
+               </div>
+            </div>
+
+            <div id="restaurar" class="tab-pane fade">
+                <div class="row">
+                   <div class="col-md-12">
+                       <img src="img/tema4/ventanas_restaurar.jpg" class="img-responsive img-center" alt="">
+                   </div>
+               </div>
+            </div>
+
+            <div id="cerrar" class="tab-pane fade">
+                <div class="row">
+                   <div class="col-md-12">
+                       <img src="img/tema4/ventanas_cerrar.jpg" class="img-responsive img-center" alt="">
+                   </div>
+               </div>
+            </div>
+
+            <div id="iconos" class="tab-pane fade">
+                <div class="row">
+                   <div class="col-md-12">
+                       <img src="img/tema4/ventanas_iconos.jpg" class="img-responsive img-center" alt="">
+                   </div>
+               </div>
+            </div>
+
+            <div id="ventanas" class="tab-pane fade">
+                <div class="row">
+                   <div class="col-md-12">
+                       <img src="img/tema4/ventanas_ventanas.jpg" class="img-responsive img-center" alt="">
+                   </div>
+               </div>
+            </div>
+
+            <div id="titulos" class="tab-pane fade">
+               <div class="row">
+                   <div class="col-md-12">
+                       <img src="img/tema4/ventanas_titulo.jpg" class="img-responsive img-center" alt="">
+                   </div>
+               </div>
+            </div>
+
+            <div id="menu" class="tab-pane fade">
+                <div class="row">
+                   <div class="col-md-12">
+                       <img src="img/tema4/ventanas_menu.jpg" class="img-responsive img-center" alt="">
+                   </div>
+               </div>
+            </div>
+
+            <div id="desplazamiento" class="tab-pane fade">
+                <div class="row">
+                   <div class="col-md-12">
+                       <img src="img/tema4/ventanas_desplazamiento.jpg" class="img-responsive img-center" alt="">
+                   </div>
+               </div>
+            </div>
+
+            <div id="esquinas" class="tab-pane fade">
+                <div class="row">
+                   <div class="col-md-12">
+                       <img src="img/tema4/ventanas_esquina.jpg" class="img-responsive img-center" alt="">
+                   </div>
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="text-center">
+	<button type="button" class="btn btn-primary link" llevame="temas/tema4-2.html" botonera="#texto-contenido">Regresar</button>
+</div>
+
+<script>
+jQuery(document).ready(function(){ 
+
+  $(".link").click(function(){
+    mihtml= $(this).attr("llevame");
+    mibotonera= $(this).attr("botonera");
+    $(mibotonera).load(mihtml);
+    $("#dos").addClass("active"); 
+  })
+
+}); 
+</script>
+<div class="wrap"></div>

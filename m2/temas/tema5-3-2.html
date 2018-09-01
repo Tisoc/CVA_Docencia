@@ -1,0 +1,33 @@
+<p class="subtitulo">Carpetas y archivos</p>
+<p>Del lado derecho se despliegan todos los archivos que tenemos, incluyendo las carpetas en las que están organizados. </p>
+<div class="row text-center">
+	<div class="col-md-4">
+		<img src="img/tema5/ventanagrande10.jpg" class="img-responsive img-center" alt="">
+		<p><strong>Windows 10</strong></p>
+	</div>
+	<div class="col-md-4">
+		<img src="img/tema5/ventanagrande7.jpg" class="img-responsive img-center" alt="">
+		<p><strong>Windows 7</strong></p>
+	</div>
+	<div class="col-md-4">
+		<img src="img/tema5/ventanagrandeXP.jpg" class="img-responsive img-center" alt="">
+		<p><strong>Windows XP</strong></p>
+	</div>
+</div>
+	
+<div class="text-center">
+	<button type="button" class="btn btn-primary link" llevame="temas/tema5-3.html" botonera="#texto-contenido">Regresar</button>
+</div>
+<script>
+jQuery(document).ready(function(){ 
+
+  $(".link").click(function(){
+    mihtml= $(this).attr("llevame");
+    mibotonera= $(this).attr("botonera");
+    $(mibotonera).load(mihtml);
+    $("#dos").addClass("active"); 
+  })
+
+}); 
+</script>
+<div class="wrap"></div>

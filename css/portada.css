@@ -1,0 +1,228 @@
+/*
+/*-----------------------------------------------------------------------------------*/
+/*	COVER
+/*-----------------------------------------------------------------------------------*/
+
+.titulo_diplomado{
+	font-size:24px;
+	line-height:25px;
+	margin-top:5px;
+	text-align:right;
+	font-family: raleway;
+	color:#ffffff;
+	font-weight:bold;
+}
+
+.bgheader {
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(../img/Docencia.png);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	overflow:hidden;
+
+}
+
+.bgheader .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.bgheader .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 25px;
+}
+
+.bgheader .intro-text .intro-heading {
+    margin-bottom: 15px;
+    font-family: Raleway;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 35px;
+
+}
+
+.logos{
+	vertical-align:middle;
+	line-height:80px;
+	text-align:center;
+}
+
+@media(min-width:768px) {
+    .bgheader .intro-text {
+        padding-top: 100px;
+        padding-bottom: 600px;
+    }
+
+    .bgheader .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: Raleway;
+        font-size: 35px;
+        font-style: italic;
+        line-height: 50px;
+    }
+
+    .bgheader .intro-text .intro-heading {
+        font-family: Raleway;
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 60px;
+    }
+
+}
+
+@media(min-width:992px) {
+    .bgheader .intro-text {
+        padding-top: 100px;
+        padding-bottom: 600px;
+    }
+
+    .bgheader .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: Raleway;
+        font-size: 40px;
+        font-style: italic;
+        line-height: 50px;
+    }
+
+    .bgheader .intro-text .intro-heading {
+        font-family: Raleway;
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 60px;
+    }
+
+
+}
+
+@media(min-width:1200px) {
+    .bgheader .intro-text {
+        padding-top: 100px;
+        padding-bottom: 600px;
+    }
+
+    .bgheader .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: Raleway;
+        font-size: 35px;
+        font-style: italic;
+        line-height: 50px;
+    }
+
+    .bgheader .intro-text .intro-heading {
+        font-family: Raleway;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 60px;
+    }
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+
+/*
+/*-----------------------------------------------------------------------------------*/
+/*	BOTON
+/*-----------------------------------------------------------------------------------*/
+.btn-xl {
+	margin-top:30px;
+    padding: 20px 40px;
+    border-color: 	#A0522D;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    background-color: #A0522D;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color: #28364F;
+    color: #fff;
+    background-color: #28364F;
+}
+/*-----------------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	IMAGEN
+/*-----------------------------------------------------------------------------------*/
+.bgheader-big-img {
+	bottom: 0;
+	margin-bottom:-10px;
+	margin-top:150px;
+	margin-right:100x;
+}
+/*-----------------------------------------------------------------------------------*/
+
+
+.navbar-mind{
+	background-color:	#A0522D;
+	color:#fff;margin:0;
+	border:0;
+	box-shadow: 0px 5px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.big i {
+	font-family: Raleway;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+	background:url(../img/bg-heading.png) repeat;
+	padding:0 10px;
+	font-style:normal;
+}
+
+.small i {
+		background:url(../img/bg-heading2.png) repeat;
+	padding:10 10px;
+	font-style:normal;
+	margin-bottom: 25px;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 15px;
+}
+
+.foot {
+padding: 5px 0;
+letter-spacing: 1px;
+background: #494949;
+-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+-moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+
+.foot-fixed-bottom {
+bottom: 0;
+margin-bottom: 0;
+border-width: 1px 0 0;
+}
+
+.foot-fixed-bottom {
+position: fixed;
+right: 0;
+left: 0;
+z-index: 1030;
+}
+
+.foot p {
+	margin:0;
+	padding:5px;
+	color:#fff;
+	font-size:12px;
+	text-align:center;
+}

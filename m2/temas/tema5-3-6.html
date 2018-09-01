@@ -1,0 +1,57 @@
+<p class="subtitulo">Dirección</p>
+<p>Indica la ruta en donde se encuentra ese archivo, empezando por la unidad de almacenamiento, después la carpeta o las carpetas y luego el archivo.</p>
+
+<div class="row text-center">
+	<div class="col-md-12">
+		<img src="img/tema5/windows10_direccion.jpg" class="img-responsive img-center" alt="">
+		<p>Windows 10</p>
+	</div>
+</div>
+
+<div class="row text-center">
+	<div class="col-md-12">
+		<img src="img/tema5/windows7_direccion.jpg" class="img-responsive img-center" alt="">
+		<p>Windows 7</p>
+	</div>
+</div>
+
+<div class="row text-center">
+	<div class="col-md-12">
+		<img src="img/tema5/windowsvista_direccion.jpg" class="img-responsive img-center" alt="">
+		<p>Windows Vista</p>
+	</div>
+</div>
+
+<div class="row text-center">
+	<div class="col-md-12">
+		<img src="img/tema5/windowsxp_direccion.jpg" class="img-responsive img-center" alt="">
+		<p>Windows XP</p>
+	</div>
+</div>
+
+<p><strong>Ejemplo: La carpeta "Documentos", se encuentra dentro de la carpeta "My Computer", y todavía hay más carpetas hacia arriba. </strong></p>
+
+<div class="row text-center">
+	<div class="col-md-12">
+		<img src="img/tema5/windowsvista_direccion.jpg" class="img-responsive img-center" alt="">
+		<p>Windows Vista</p>
+	</div>
+</div>
+
+<div class="text-center">
+	<button type="button" class="btn btn-primary link" llevame="temas/tema5-3.html" botonera="#texto-contenido">Regresar</button>
+</div>
+
+<script>
+jQuery(document).ready(function(){ 
+
+  $(".link").click(function(){
+    mihtml= $(this).attr("llevame");
+    mibotonera= $(this).attr("botonera");
+    $(mibotonera).load(mihtml);
+    $("#dos").addClass("active"); 
+  })
+
+}); 
+</script>
+<div class="wrap"></div>

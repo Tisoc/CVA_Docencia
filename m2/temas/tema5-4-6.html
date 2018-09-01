@@ -1,0 +1,53 @@
+<p class="subtitulo">Ordenar carpetas o archivos</p>
+
+<div class="contenedor-gris">
+	<p><strong>Consejo:</strong></p>
+	<p>A medida que el número de archivos con los que se trabaja aumenta, necesitamos encontrar una manera rápida y eficiente de organizarlos.</p>
+</div>
+
+<p>Una forma fácil de encontrar un archivo consiste en ordenar el contenido en carpetas según ciertas características, como: agrupar todos los archivos de un mismo mes, la información de un proyecto, etc. Si después de ese orden, todavía es complicado encontrar información, entonces lo más fácil es ordenar los archivos de acuerdo a otros criterios.
+</p>
+
+<p>Los siguientes pasos permiten <strong>ordenar archivos</strong> de la manera más fácil: </p>
+
+<ol>
+	<li>Abra la carpeta donde desea ordenar los archivos. </li>
+	<li>En cualquier lugar de la carpeta, excepto sobre un archivo, despliegue el menú contextual, con el botón derecho del <strong>ratón</strong> (mouse).
+		<div class="row">
+			<div class="col-md-4">
+				<img src="img/tema5/ordenar_windowsxp.jpg" class="img-responsive" alt="">
+			</div>
+			<div class="col-md-4">
+				<img src="img/tema5/ordenar_windowsvista.jpg" class="img-responsive" alt="">
+			</div>
+			<div class="col-md-4">
+				<img src="img/tema5/ordenar_windows7.jpg" class="img-responsive" alt="">
+			</div>
+		</div>
+	</li>
+	<li>Elija la opción con la que desea ordenar los archivos o carpetas (Arrange icons by). Las opciones son: 
+		<ol>
+			<li><strong>Nombre</strong> (Name): ordena los archivos por nombre, en orden alfabético. </li>
+			<li><strong>Tamaño</strong> (Size): ordena los archivos por el tamaño del archivo o carpeta. </li>
+			<li><strong>Tipo</strong> (Type): ordena los archivos por tipo de archivo; ejemplo: Word, Excel, Power Point, imagen jpg, gif, etc. </li>
+			<li><strong>Fecha en que fue modificado</strong> (Date Modified): los archivos se ordenan por la última fecha en que fueron modificados o editados. </li>
+		</ol>
+	</li>
+	<li>Al seleccionar la opción, los archivos y carpetas se habrán ordenado automáticamente de la manera indicada. </li>
+</ol>
+<div class="text-center">
+	<button type="button" class="btn btn-primary link" llevame="temas/tema5-3.html" botonera="#texto-contenido">Regresar</button>
+</div>
+<script>
+jQuery(document).ready(function(){ 
+
+  $(".link").click(function(){
+    mihtml= $(this).attr("llevame");
+    mibotonera= $(this).attr("botonera");
+    $(mibotonera).load(mihtml);
+    $("#dos").addClass("active"); 
+  })
+
+}); 
+</script>
+<div class="wrap"></div>

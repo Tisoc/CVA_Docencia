@@ -1,0 +1,38 @@
+
+
+<div class="row">
+ 	<div class="col-md-8"> <p class="tema text-left">Componentes Internos</p>
+    </div>
+        <div class="col-md-4">
+         <section class="paginacion">
+<ul>
+
+<li> <a llevame="temas/tema1-1.html" botonera="#texto-contenido" class="mo active">1</a></li>
+</ul>
+
+</section>
+	</div>
+
+   <div class="col-md-12" id="texto-contenido">
+
+   </div>
+   </div>
+
+
+<script>
+jQuery(document).ready(function(){
+
+//Load
+$("#texto-contenido").load("temas/tema1-1.html");
+
+  $(".mo").click(function(){
+    mihtml= $(this).attr("llevame");
+    mibotonera= $(this).attr("botonera");
+    $(mibotonera).load(mihtml);
+    $(".mo").removeClass("active")
+    $(this).addClass("active");
+  })
+
+
+});
+</script>

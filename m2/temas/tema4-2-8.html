@@ -1,0 +1,67 @@
+<p class="subtitulo">Papelera de reciclaje</p>
+<p>La información que se ha eliminado se coloca en un lugar de almacenamiento temporal llamado "Papelera de Reciclaje" que permite recuperar carpetas, archivos o cualquier otro elemento que haya sido borrado con intención o eliminado accidentalmente. </p>
+
+<div class="row">
+	<div class="col-md-4">
+		<img src="img/tema4/windows810_iconosPapelera.jpg" class="img-responsive img-center" alt="">
+	</div>
+	<div class="col-md-4">
+		<img src="img/tema4/windowsvista7_papelera.gif" class="img-responsive img-center" alt="">
+	</div>
+	<div class="col-md-4">
+		<img src="img/tema4/windowsxp_papelera.gif" class="img-responsive img-center" alt="">
+	</div>
+</div>
+
+<p>La papelera de reciclaje funciona como si fuera un bote (o recipiente) de basura, en donde se coloca lo que ya no se necesita y que se puede recuperar siempre y cuando no se haya vaciado el bote.</p>
+
+<p class="text-center"><strong>¿Cómo recuperar información de la papelera de reciclaje?</strong></p>
+
+<ol>
+	<li>Haga doble clic izquierdo en el Icono de <strong>Papelera de reciclaje</strong> (Recycle bin). </li>
+	<li>Automáticamente se abrirá una ventana que contiene la información de los archivos o carpetas eliminadas, permitiendo la opción de reubicar esta información en el directorio correspondiente. </li>
+	<li>Para recuperar archivos o carpetas, selecciónelos y escoja alguna de las dos opciones: 
+		<ul>
+			<li>Despliegue el menú contextual haciendo clic izquierdo sobre el archivo; seleccione <strong>Restaurar</strong> (Restore); ahora usted podrá acceder a su archivo en el lugar donde lo tenía <strong>almacenado</strong>. </li>
+			<li>Arrastre el archivo al lugar donde desea guardarlo nuevamente; puede ser el escritorio para que lo ubique rápidamente. </li>
+		</ul>
+	</li>
+</ol>
+
+<div class="contenedor-gris">
+	<p>Todas las versiones de Windows son similares en  la estructura de la papelera de reciclaje, en la parte derecha se encuentran los archivos o carpetas que fueron almacenados ahí.</p>
+	<div class="row">
+		<div class="col-md-3 text-center">
+			<p><strong>Windows 10</strong></p>
+			<img src="img/tema4/windows810_ventanaPapelera.jpg" class="img-responsive img-center" alt="">
+		</div>
+		<div class="col-md-3 text-center">
+			<p><strong>Windows 7</strong></p>
+			<img src="img/tema4/windows7_ventanaPapelera.jpg" class="img-responsive img-center" alt="">
+		</div>
+		<div class="col-md-3 text-center">
+			<p><strong>Windows Vista</strong></p>
+			<img src="img/tema4/windowsvista_ventanaPapelera.jpg" class="img-responsive img-center" alt="">
+		</div>
+		<div class="col-md-3 text-center">
+			<p><strong>Windows XP</strong></p>
+			<img src="img/tema4/windowsxp_ventanaPapelera.jpg" class="img-responsive img-center" alt="">
+		</div>
+	</div>
+</div>
+<div class="text-center">
+	<button type="button" class="btn btn-primary link" llevame="temas/tema4-2.html" botonera="#texto-contenido">Regresar</button>
+</div>
+<script>
+jQuery(document).ready(function(){ 
+
+  $(".link").click(function(){
+    mihtml= $(this).attr("llevame");
+    mibotonera= $(this).attr("botonera");
+    $(mibotonera).load(mihtml);
+    $("#dos").addClass("active"); 
+  })
+
+}); 
+</script>
+<div class="wrap"></div>
